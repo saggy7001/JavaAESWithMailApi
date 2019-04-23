@@ -11,8 +11,8 @@ public class Consumer {
         System.out.println(encryptedMsg);
         System.out.println(decryptedString);
 
-        String fromEmail = "sagardada101@gmail.com";
-        String toEmail = "sagardada101@gmail.com";
+        String fromEmail = "*******@gmail.com";
+        String toEmail = "*********@gmail.com";
         String subject = "Test Subject";
         String message = encryptedMsg;
 
