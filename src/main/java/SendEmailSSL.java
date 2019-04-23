@@ -8,8 +8,8 @@ import java.util.Properties;
 import java.util.stream.Collectors;
 
 public class SendEmailSSL {
-    final static String username = "**********@gmail.com";
-    final static String password = "***********";// https://support.google.com/accounts/answer/185833 refer How to genrate app password
+    final static String username = "sagardada101@gmail.com";
+    final static String password = "pierkjlhwbgmjjut";
 
     private static Session getSession(){
         Properties props = new Properties();
