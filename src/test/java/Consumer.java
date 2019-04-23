@@ -1,8 +1,8 @@
 public class Consumer {
     public static void main(String[] args)
     {
-        final String secretKey = "ssshhhhhhhhhhh!!!!";
-        String msg = "howtodoinjava.com";
+        final String secretKey = "###ThisKeyWillProtectYou!!!!";
+        String msg = "SampleEmailBodyString";
 
         String encryptedMsg = AES.encrypt(msg, secretKey) ;
         String decryptedString = AES.decrypt(encryptedMsg, secretKey) ;
